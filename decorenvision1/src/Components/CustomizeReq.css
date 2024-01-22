@@ -1,0 +1,105 @@
+.banner1 {
+    opacity: 0.5;
+}
+
+.cusreq-head {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px #a65d5d;
+
+}
+.cusreq-container {
+    display: flex;
+    background-color: #ffffff;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.cusreq-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    border: 1px solid rgb(189, 136, 136);
+    background-color: rgb(254, 244, 244);
+    border-radius: 10px;
+    width: 700px;
+}
+
+.cusreq-form p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(159, 86, 86);
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+
+.cusreq-form label {
+    padding: 0px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.cusreq-form input {
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(154, 154, 154);
+    font-size: 15px;
+}
+
+.cusreq-form textarea {
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(154, 154, 154);
+    font-size: 15px;
+}
+
+
+.cusreq-form button {
+    background-color: rgb(174, 104, 104);
+    margin: 10px 0px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cusreq-form button:hover {
+    background-color: black;
+    color: rgb(183, 115, 115);
+    cursor: pointer;
+}
+h5:nth-child(1){
+    color: #855858;
+    font-weight: 700;
+    margin-top: 10px;
+    
+}
+h5:nth-child(2){
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+h5:nth-child(3){
+    color: #855858;
+    font-weight: 600;
+    font-size: 19px;
+}
+h4{
+    color:#855858;
+}
+h6{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}

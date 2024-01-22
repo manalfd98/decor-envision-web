@@ -1,0 +1,177 @@
+  .Container h6 {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .col-md-5 table {
+    margin-bottom: 400px;
+    margin-left: 10px;
+  }
+
+  .Container {
+    background-color: rgb(172, 102, 102);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-header {
+    background-color: rgb(172, 102, 102);
+  }
+
+  .card-header h4 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(172, 102, 102);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+
+  .btn:hover {
+    background-color: rgb(172, 102, 102);
+  }
+
+  .btn:active {
+    background-color: rgb(172, 102, 102);
+  }
+
+  .btn:focus {
+    outline: none;
+  }
+
+  .shipping-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .shipping-container {
+  
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+  }
+ 
+  .shipping-details {
+    width: 50%;
+  }
+  
+
+
+
+  .category2-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .category2-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    width: 400px;
+    justify-content: baseline;
+    padding: 5px;
+    border-radius: 30px;
+  }
+  .category2-detail{
+    margin-left: 10px;
+  }
+
+  .card-form {
+    border: 1px solid rgb(245, 245, 245);
+    padding: 10px;
+    height: 100%;
+
+  }
+
+  .card-form label,
+  .card-form input {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .card-form button {
+    background-color: rgb(172, 102, 102);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .card-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-order {
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    width: 350px;
+    height: 40px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 140px;
+  }
+
+  .btn-order:hover {
+    background-color: rgb(182, 135, 135);
+    color: white;
+
+  }
+  .btn-confirm{
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(174, 109, 109);
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 170px;
+
+  }
+  .back{
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(174, 109, 109);
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    font-weight: 500;
+    border: none;
+    text-decoration: none;
+    margin-left: 170px;
+  }

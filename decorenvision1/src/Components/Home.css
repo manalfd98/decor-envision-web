@@ -1,0 +1,154 @@
+.slider-head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: 700;
+  color: rgb(172, 102, 102);
+
+}
+
+.app-detail {
+
+  color: black;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.intro p {
+  margin-top: 30%;
+  font-size: large;
+  background-color: white;
+  width: 100%;
+  border: 15px solid rgb(172, 102, 102);
+  padding: 50px;
+  margin: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.app-detail img {
+  margin-top: 10%;
+  margin-left: 80%;
+  height: 80%;
+  width: 70%;
+}
+
+.intro {
+  float: left;
+  width: 35%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.app-detail::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.service_item {
+  padding: 20px;
+  background-color: rgb(237, 193, 193);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  column-gap: 0.5rem;
+}
+
+.service_item span img {
+  font-size: 2.2rem;
+  background-color: rgb(255, 241, 241);
+  padding: 10px;
+  border-radius: 28px;
+  color: rgb(255, 255, 255);
+}
+
+.service_item h3 {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+}
+.shopbycat{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.shopbycat .container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.shopbycat .container img{
+  width: 50%;
+  object-fit: cover;
+
+}
+
+.shopbycat .container .content{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shopbycat .container .content button{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+.shopbycat .container .content p{
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0;
+  color: black;
+}
+
+.shopbycat .container:nth-child(1){
+  background-color: antiquewhite;
+}
+.shopbycat .container:nth-child(1):hover{
+  color: white;
+  height: 205px;
+  width: 305px;
+}
+.shopbycat .container:nth-child(2){
+  background-color: rgb(210, 246, 224);
+}
+.shopbycat .container:nth-child(2):hover{
+  background-color: rgb(187, 216, 198);
+  color: white;
+  height: 205px;
+  width: 305px;
+}
+.shopbycat .container:nth-child(3){
+  background-color: rgb(250, 215, 239);
+}
+.shopbycat .container:nth-child(3):hover{
+  background-color: rgb(222, 191, 212);
+  color: white;
+  height: 205px;
+  width: 305px;
+}
+.shopbycat .container:nth-child(4){
+  background-color: rgb(240, 205, 249);
+}
+.shopbycat .container:nth-child(4):hover{
+  background-color: rgb(219, 187, 227);
+  color: white;
+  height: 205px;
+  width: 305px;
+}

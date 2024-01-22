@@ -1,0 +1,98 @@
+.cart-prod-container {
+    display: flex;
+    box-shadow: 0px 0px 2px 0px rgb(172, 108, 108);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.cart-prod-imgtitle {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.prod-image {
+    width: 50px;
+    height: 60px;
+    margin-right: 10px;
+    display: block;
+}
+
+.prod-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.prod-title {
+    font-size: 22px;
+}
+
+.prodquantity-div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(241, 211, 211);
+    padding: 10px 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    border: 2px solid rgb(172, 102, 102);
+    width: 120px;
+    margin-right: 6px;
+
+    /* align-items: center; */
+}
+
+.prodquantity-div button {
+    
+    background-color: white;
+    font-size: 22px;
+    color: rgb(172, 102, 102);
+    width: 30px;
+    height: 30px;
+    line-height: 0px;
+    border-radius: 40px;
+    justify-content: center;
+ 
+
+}
+
+.prodquantity-div p {
+    color:rgb(172, 102, 102);
+}
+
+
+.prodprice {
+    width: 20%;
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    color: rgb(115, 191, 2);
+}
+
+
+.deletebtn {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.deletebtn:hover {
+    /* box-shadow: 0px 0px 5px 0px rgb(255, 1, 1); */
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+.deletebtn img {
+    max-width: 90%;
+    max-height: 90%;
+    /* border: none; */
+}
+
+.customize-text{
+    color: green;
+    font-size: 20px;
+}

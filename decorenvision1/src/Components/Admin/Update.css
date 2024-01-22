@@ -1,0 +1,97 @@
+
+.update-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 15px;
+    align-items: center;
+    
+}
+.update-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    border: 1px solid rgb(189, 136, 136);
+    background-color: rgb(248, 232, 232);
+    border-radius: 10px;
+    width: 1000px;
+
+}
+.update-form h1{
+    justify-content: center;
+    display: flex;
+    margin-right: 2px;
+    font-size: 30px;
+    color: rgb(159, 97, 97);
+ 
+}
+.update-form p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(159, 86, 86);
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+.update-form label {
+    padding: 0px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.update-form input {
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(154, 154, 154);
+    font-size: 15px;
+}
+
+.update-form textarea {
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(154, 154, 154);
+    font-size: 15px;
+}
+
+
+.update-form button {
+    background-color: rgb(174, 104, 104);
+    margin: 10px 0px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.update-form button:hover {
+    background-color: black;
+    color: rgb(183, 115, 115);
+    cursor: pointer;
+}
+.update-form h5{
+    font-size: 15px;
+    color: red;
+}
+
+.success-msg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(180, 225, 195);
+    padding: 10px;
+    border-radius: 10px;
+    color: green;
+}
+.error-msg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(218, 170, 170);
+    border-radius: 10px;
+    color: red;
+}

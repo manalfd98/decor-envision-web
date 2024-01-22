@@ -1,0 +1,83 @@
+.userprofile-outercontainer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+.user-profile{
+    background-color:  rgb(172, 102, 102);
+    padding: 10px;
+    border-radius: 5px;
+    width: 900px;
+    height: 300px;
+
+}
+.user-profile p{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+  
+}
+.data-row{
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+}
+.data-row span{
+    width: 50%;
+    padding: 10px;
+    border: 2px solid;
+    font-size: 18px;
+
+}
+.order-list-container{
+    margin-top: 20px;
+}
+.sidebaruser {
+    background-color: white;
+    width: 220px;
+    height: 1000px;
+    color: white;
+    position: fixed;
+    border-right: 2px solid;
+    border-color: rgb(172, 102, 102);
+}
+
+.sidebaruser-1,
+.sidebaruser-2 {
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    color: rgb(245, 244, 244);
+    margin-bottom: 3px;
+    font-weight: 600;
+    background-color: rgb(172, 102, 102);
+    width: 220px;
+    height: 60px;
+}
+
+.sidebaruser-1:hover {
+    background: none;
+    height: 60px;
+    color: rgb(152, 107, 107);
+    background-color: rgba(251, 255, 255, 0.705);
+    width: 218px;
+    font-weight: 600;
+    box-shadow: 2px 2px rgb(172, 102, 102);
+}
+
+.sidebaruser-2:hover {
+    background: none;
+    height: 60px;
+    color: rgb(152, 107, 107);
+    background-color: rgba(251, 255, 255, 0.705);
+    width: 218px;
+    font-weight: 600;
+    box-shadow: 2px 2px rgb(172, 102, 102);
+}
+.order-item{
+    font-size: 17px;
+    font-weight: 600;
+}
+

@@ -1,0 +1,105 @@
+.allcartitems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.cart-head {
+ 
+    font-size: 40px;
+    font-weight: 600;
+    padding: 3px;
+    background-color: rgb(172, 102, 102);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.proceed {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+.proceed button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(172, 102, 102);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .proceed button:hover {
+    background-color: rgb(213, 154, 154);
+  }
+  
+  .proceed button:active {
+    background-color: rgb(172, 102, 102);
+  }
+  
+  .proceed button:focus {
+    outline: none;
+  }
+  .total{
+    border-radius: 10px;
+    border: 1px solid rgb(172, 102, 102);
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+    width: 810px;
+    font-size: 18px;
+}
+.total span:nth-child(1){
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+   
+}
+.total span:nth-child(2){
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.total h4{
+  color: rgb(172, 102, 102)
+}
+.continue button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.continue button:hover {
+  background-color: rgb(226, 177, 177);
+}
+
+.continue button:active {
+  background-color: rgb(172, 102, 102);
+}
+
+.continue button:focus {
+  outline: none;
+}
